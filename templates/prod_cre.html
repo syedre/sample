@@ -1,0 +1,28 @@
+{% block contents %}
+<form action="saaa" method="POST">
+	
+	{% csrf_token %}
+	
+    name: 
+	<input type="text" name="name"><br>
+
+	descrip:
+	<input type="text" name="descrip"><br>
+
+	dindong:
+	<input type="text" name="dindong"><br>
+
+	hhgh:
+	<input type="text" name="hhgh"><br>
+
+	real:
+	<input type="text" name="real"><br>
+
+
+
+
+
+    <input type="submit" value="save">
+	
+	</form>
+{% endblock %}
